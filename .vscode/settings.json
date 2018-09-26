@@ -2,5 +2,6 @@
   "flow.enabled": false,
   "standard.autoFixOnSave": true,
   "javascript.validate.enable": false,
-  "standard.usePackageJson": true
+  "standard.usePackageJson": true,
+  "git.ignoreLimitWarning": true
 }

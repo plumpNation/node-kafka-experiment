@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "kafka-node": "^3.0.1"
+    "config": "^2.0.1",
+    "kafka-node": "^3.0.1",
+    "stream-throttle": "^0.1.3"
   },
   "devDependencies": {
     "standard": "^12.0.1"

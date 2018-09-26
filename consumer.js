@@ -1,6 +1,12 @@
-const kafka = require('kafka-node')
-const Consumer = kafka.Consumer
-const client = new kafka.Client()
+const config = require('config')
+
+const {
+  Consumer,
+  KafkaClient,
+} = require('kafka-node')
+
+const client = new KafkaClient({ kafkaHost: config.kafkaHost })
+
 const consumer = new Consumer(
   client,
   [
